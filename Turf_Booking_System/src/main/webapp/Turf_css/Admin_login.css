@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body{
+   font-family: Arial;
+   font-family:Arial; 
+   background: linear-gradient(to right, #155799,#d501ff); 
+   color:whitesmoke;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+}
+button{
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0px;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 35em;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+  
+  .headingsContainer{
+    text-align: center;
+}
+.mainContainer{
+    padding: 16px;
+}
+.register{
+    color: white;
+    
+  }
+  .register a{
+    color: rgb(74, 146, 235);
+  }
+ .forgot{
+  color: white;
+  text-align: end;
+ }
+ .forgot a{
+ color: rgb(74, 146, 235);
+ }
